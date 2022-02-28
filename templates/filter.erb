@@ -1,0 +1,9 @@
+[Definition]
+
+failregex = <%= @failregex %>
+
+<% if defined?(@ignoreregex) -%>
+ignoreregex = <%= @ignoreregex %>
+<% else -%>
+ignoreregex =
+<% end -%>

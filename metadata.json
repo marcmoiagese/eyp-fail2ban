@@ -1,0 +1,47 @@
+{
+  "name": "eyp-fail2ban",
+  "version": "0.1.1",
+  "author": "eyp",
+  "summary": "fail2ban management",
+  "license": "Apache-2.0",
+  "source": "https://github.com/SaltaIT/eyp-fail2ban",
+  "project_page": "https://github.com/SaltaIT/eyp-fail2ban",
+  "issues_url": "https://github.com/SaltaIT/eyp-fail2ban/issues",
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 4.0.0"},
+    {"name":"eyp/eyplib","version_requirement":">= 0.1.0 < 0.2.0"},
+    {"name":"puppetlabs/concat","version_requirement":">= 1.2.3"}
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [ "5", "6", "7", "8" ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [ "5", "6", "7", "8" ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [ "5", "6", "7", "8" ]
+    },
+    {
+      "operatingsystem": "OEL",
+      "operatingsystemrelease": [ "5", "6", "7", "8" ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [ "5", "6", "7", "8" ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [ "14.04", "16.04", "18.04", "20.04" ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.8.0"
+    }
+  ]
+}

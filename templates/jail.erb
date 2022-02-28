@@ -1,0 +1,9 @@
+[<%= @jailname %>]
+enabled  = <%= @enabled %>
+filter   = <%= @filter %>
+action   =
+           <%- @action.each do |val| -%>
+           <%= val %>
+           <%- end -%>
+logpath  = <%= @logpath %>
+maxretry = <%= @maxretry %>
